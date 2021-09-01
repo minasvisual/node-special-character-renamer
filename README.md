@@ -1,10 +1,7 @@
-# node-special-character-renamer
-Rename all files of folder to remove special characters without plugins and programs
 
-#requirements
-NodeJs += > v8 
 
-# HOW TO USE
-```
-node index "<absolute-folder-path>"
-```
+HOW TO USE
+
+node index <absolute-path> <action: filetometa|metatofile|sanitize|moveduplicated+addparam|> <addParam: moveduplicated base path| >
+
+
